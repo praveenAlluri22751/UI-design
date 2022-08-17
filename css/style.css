@@ -28,7 +28,7 @@ a {
   --secondary: #a3a0a0;
 }
 
-/* ------------ Design Svg image  -------------- */
+/* Svg  */
 .red {
   filter: invert(39%) sepia(53%) saturate(935%) hue-rotate(320deg)
     brightness(79%) contrast(97%);
@@ -39,11 +39,9 @@ a {
 .product-img {
   height: 100px;
 }
-/* ------------------------------- */
 
-/* ----------- Header -------------- */
+/* navigation */
 
-/* ------ Navbar style ------ */
 #navbar {
   padding: var(--defaultPadding);
   margin-top: 2.5rem;
@@ -93,7 +91,7 @@ a {
   font-size: 18px;
 }
 
-/* -- Reuse -- */
+/* Micro services */
 .btn {
   padding: 15px 30px;
   font-size: 16px;
@@ -106,9 +104,8 @@ a {
   border: none;
   outline: none;
 }
-/* ------------------------------- */
 
-/* ----------- Home ------------ */
+/* Home */
 #home {
   padding: var(--defaultPadding);
   display: flex;
@@ -143,11 +140,8 @@ a {
   font-family: "Montserrat", sans-serif;
   padding: 10px 0 35px;
 }
-/* ------------------------------- */
+/* Body */
 
-/* -------- Body ---------- */
-
-/* ----------- About ---------- */
 #about {
   padding: var(--defaultPadding);
   padding-top: 8rem;
@@ -201,7 +195,7 @@ a {
   color: var(--lightColor);
 }
 
-/* ------- Number Count --------- */
+/* Count */
 .about-counter {
   display: flex;
   flex-wrap: wrap;
@@ -265,8 +259,8 @@ a {
   color: var(--secondary);
   font-size: 15px;
 }
-/* ---------------------------------- */
-/* ------------- Project ---------------- */
+/* Project */
+
 #project {
   padding: var(--defaultPadding);
 }
@@ -329,8 +323,7 @@ a {
   cursor: pointer;
 }
 
-/* ------------------------- */
-/* ------- Contact --------- */
+/* contact */
 
 #contact {
   padding: var(--defaultPadding);
@@ -340,7 +333,7 @@ a {
   width: 40%;
 }
 
-/* --------------- Footer -------------- */
+/* Footer */
 
 #footer {
   padding: var(--defaultPadding);
@@ -377,4 +370,4 @@ a {
 .footer-brand > img {
   height: 30px;
 }
-/* ----------------------- */
+
