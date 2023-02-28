@@ -51,7 +51,7 @@ a {
 }
 
 .brand > img {
-  height: 40px;
+  height: 30px;
 }
 .menu {
   display: none;
@@ -116,6 +116,7 @@ a {
 
 .home-img > img {
   height: 600px;
+  border-radius: 25%;
 }
 
 .home-content {
